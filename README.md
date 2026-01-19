@@ -19,7 +19,7 @@ OpenSovix is a micro-kernel that is still developing which published with GPL-3.
 需要使用wsl或Linux进行编译运行，依赖宿主系统。
 # 构建系统
 1.克隆项目
- ```   git clone <repository-url>
+ ``` git clone <repository-url>
    cd microkernel 
 
 2.安装依赖
@@ -33,13 +33,14 @@ OpenSovix is a micro-kernel that is still developing which published with GPL-3.
    make run 
 
 
+
 # 模块开发流程
 
 1. 复制 template.c 作为起点
 2. 修改模块信息（名称、版本、描述等）
 3. 实现功能函数（最多15个）
 4. 编译模块：
-     ```bash
+ ``` bash
        make template-module
 5. 在运行时加载模块
 
