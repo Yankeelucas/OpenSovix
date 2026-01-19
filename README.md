@@ -17,22 +17,19 @@ OpenSovix is a micro-kernel that is still developing which published with GPL-3.
 
 仍在开发图形操作界面，文件管理系统，和底层硬件支持。
 需要使用wsl或Linux进行编译运行，依赖宿主系统。
-
-# 克隆项目
-git clone <repository-url>
-cd microkernel
-
-# 安装依赖
-sudo apt-get install nasm gcc-multilib qemu-system-x86 grub-pc-bin xorriso
-
 # 构建系统
-make clean
-make all
+1.克隆项目
+  git clone <repository-url>
+  cd microkernel
+2.安装依赖
+  sudo apt-get install nasm gcc-multilib qemu-system-x86 grub-pc-bin xorriso
+3.构建系统
+  make clean
+  make all
+4.运行
+  make run
 
-# 运行
-make run
-
-#模块开发流程
+# 模块开发流程
 
 1. 复制 template.c 作为起点
 2. 修改模块信息（名称、版本、描述等）
@@ -43,7 +40,7 @@ make run
    ```
 5. 在运行时加载模块
 
-#
+# 系统命令示例
 # 查看系统状态
 > sysinfo
 
