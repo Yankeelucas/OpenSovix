@@ -20,7 +20,7 @@ OpenSovix is a micro-kernel that is still developing which published with GPL-3.
 # 构建系统
 1.克隆项目
     ```git clone <repository-url>
-   ```cd microkernel 
+   cd microkernel 
 
 2.安装依赖
    sudo apt-get install nasm gcc-multilib qemu-system-x86 grub-pc-bin xorriso
@@ -30,7 +30,7 @@ OpenSovix is a micro-kernel that is still developing which published with GPL-3.
    ```make all
 
 4.运行
-   ```make run ```
+   ```make run 
 
 
 # 模块开发流程
