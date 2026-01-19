@@ -70,4 +70,4 @@ OpenSovix is a micro-kernel that is still developing which published with GPL-3.
 > mount /dev/hda1 /mnt NTFS
 
 卸载模块
-> module unload fs_ntfs ```
+> module unload fs_ntfs 
