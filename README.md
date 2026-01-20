@@ -1,9 +1,5 @@
 OpenSovix Micro-Kernel
 
-https://img.shields.io/badge/License-GPLv3-blue.svg
-https://img.shields.io/badge/Status-Under%20Active%20Development-orange
-https://img.shields.io/badge/Architecture-Microkernel-green
-
 OpenSovix 是一个遵循 GPL-3.0 许可证开源，正在积极开发中的真正的微内核操作系统项目。它采用分层与插件化设计，旨在为个人桌面计算构建一个高度模块化、安全且可扩展的现代系统基石，其长期目标是成为一个可替代传统桌面操作系统的新选择。
 
 ⚠️ 许可证声明: 本项目严格采用 GNU General Public License v3.0 许可证授权。所有分发和衍生作品必须遵循相同的开源条款。
@@ -67,7 +63,7 @@ make run
 
 系统启动后，您可以使用以下命令进行交互和管理：
 
-命令 功能描述 示例
+```命令 功能描述 示例
 sysinfo 显示系统概要信息（版本、内存使用等）。 sysinfo
 ps 列出当前系统中所有的进程。 ps
 modules 显示所有已加载的内核模块。 modules
@@ -75,6 +71,7 @@ mempools 列出所有已创建的内存池及其状态。 mempools
 mempool create 创建一个新的内存池。 mempool create small_objects SMALL 1024
 module load/unload 动态加载或卸载一个功能模块。 module load memory_gc.bin
 mount 挂载文件系统（需先加载对应模块）。 mount /dev/hda1 /mnt NTFS
+```
 
 🚧 当前开发状态与路线图
 
